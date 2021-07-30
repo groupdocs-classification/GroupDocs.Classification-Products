@@ -238,7 +238,7 @@ support:
 
 ############################# Solutions ############################
 solutions:
-    enable: true
+    enable: false
     title: "GroupDocs.Classification offers document viewing APIs for other popular development environments"
 
     solution:
