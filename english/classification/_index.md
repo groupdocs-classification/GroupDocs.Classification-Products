@@ -59,7 +59,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/classification/total"
           img_alt: "GroupDocs.Classification Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_classification-app.png"
+          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_classificaion-total-app.png"
           product: "GroupDocs.Classification"
           platform: "Total"
           content: "Try the free app to classify raw texts and Microsoft Word, OpenOffice, PDF, TXT &amp; RTF files online."
