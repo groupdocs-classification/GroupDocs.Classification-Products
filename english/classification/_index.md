@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Classification On Premise APIs Include"
-      link: "/classification"
+      link: "/classification/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/classification/net"
+        - link: "/classification/net/"
           img_alt: "GroupDocs.Classification for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-classification-net.png"
           product: "GroupDocs.Classification for"

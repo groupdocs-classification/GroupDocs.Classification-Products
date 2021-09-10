@@ -247,7 +247,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-classification-java.png"
           product: "GroupDocs.Classification"
           platform: "Java"
-          link: "/classification/java"
+          link: "/classification/java/"
 
 ############################# Back to top ###############################
 back_to_top:
