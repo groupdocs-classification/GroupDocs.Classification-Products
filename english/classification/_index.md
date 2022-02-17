@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Classification On Premise APIs Include"
+    - title: "GroupDocs.Classification High Code APIs Include"
       link: "/classification/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/classification/net/"
@@ -31,9 +31,9 @@ apis:
           content: "Develop .NET applications with documents and text categorization features to analyze & extract content without using any external tool."
 
     # api loop
-    - title: "GroupDocs.Classification Cloud APIs Include"
+    - title: "GroupDocs.Classification Low Code APIs Include"
       link: "https://products.groupdocs.cloud/classification"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/classification/curl"
@@ -52,9 +52,9 @@ apis:
           content: "Open source cloud SDK designed for .NET developers to use GroupDocs.Classification REST APIs."
 
     # api loop
-    - title: "GroupDocs.Classification Cross Platform Apps Include"
+    - title: "GroupDocs.Classification No Code Apps Include"
       link: "https://products.groupdocs.app/classification"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/classification/total"
