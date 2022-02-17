@@ -15,7 +15,7 @@ head_description: "Document and raw text classification with c# .NET APIs. Categ
 
 ############################# Header ############################
 title: ".NET Text & Documents Classification API"
-description: "‎Empower your .NET applications with File & Text Classifier abilities using pre-defined tags or categories within IAB-2, Documents and Sentiment taxonomies."
+description: "Empower your .NET applications with File & Text Classifier abilities using pre-defined tags or categories within IAB-2, Documents and Sentiment taxonomies."
 button:
     enable: true
 
@@ -60,7 +60,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Classification for .NET is an intuitive C# Netstandard 2.0 API that helps you create powerful text and document classification/categorization applications in C#, ASP.NET, ‎and other .NET-based technologies. API supports four different types of taxonomies and offers advanced document and text classification by using IAB-2 for assigning standardized text categories, Documents taxonomy as developed by Aspose for different document types, or Sentiment (and Sentiment3) for the sentiment analysis. API analyzes text, sentences, even words and supports classifying a variety of industry-standard document formats including PDF, Microsoft Word, OpenDocument, RTF, and TXT. Sentiment analysis (classification) supports English, Chinese, Spanish, and German languages with language auto-detection. API can return positiveness probability which could be used for fine-grained sentiment analysis in C#.  
+      GroupDocs.Classification for .NET is an intuitive C# Netstandard 2.0 API that helps you create powerful text and document classification/categorization applications in C#, ASP.NET, and other .NET-based technologies. API supports four different types of taxonomies and offers advanced document and text classification by using IAB-2 for assigning standardized text categories, Documents taxonomy as developed by Aspose for different document types, or Sentiment (and Sentiment3) for the sentiment analysis. API analyzes text, sentences, even words and supports classifying a variety of industry-standard document formats including PDF, Microsoft Word, OpenDocument, RTF, and TXT. Sentiment analysis (classification) supports English, Chinese, Spanish, and German languages with language auto-detection. API can return positiveness probability which could be used for fine-grained sentiment analysis in C#.  
 
       GroupDocs.Classification for .NET uses its own document processing/classification engine and does not require any external tools to be installed on the system. It targets .NET platform to develop applications and supports all popular operating systems (Windows, Linux, macOS) where .NET frameworks (including .NET Core) can be installed.
     tabs:
@@ -92,7 +92,7 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF‎‎
+                * **Word**: DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF
 
         right:
           enable: true
@@ -107,7 +107,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Classification for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Classification for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true

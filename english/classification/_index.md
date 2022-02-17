@@ -10,7 +10,7 @@ head_description: ".NET, Cloud APIs & Online Document & Text Classification Solu
 
 ############################# Header ############################
 title: "Documents & Text Classifier Solution"
-description: "‎Programmatically classify documents and text into accurate categories using IAB (version 2), Documents and Sentiment taxonomies within any type of .NET applications.‎"
+description: "Programmatically classify documents and text into accurate categories using IAB (version 2), Documents and Sentiment taxonomies within any type of .NET applications."
 
 ############################# APIs ###############################
 apis:
