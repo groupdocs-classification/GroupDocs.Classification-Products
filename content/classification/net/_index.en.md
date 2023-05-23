@@ -60,9 +60,17 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Classification for .NET is an intuitive C# Netstandard 2.0 API that helps you create powerful text and document classification/categorization applications in C#, ASP.NET, and other .NET-based technologies. API supports four different types of taxonomies and offers advanced document and text classification by using IAB-2 for assigning standardized text categories, Documents taxonomy as developed by Aspose for different document types, or Sentiment (and Sentiment3) for the sentiment analysis. API analyzes text, sentences, even words and supports classifying a variety of industry-standard document formats including PDF, Microsoft Word, OpenDocument, RTF, and TXT. Sentiment analysis (classification) supports English, Chinese, Spanish, and German languages with language auto-detection. API can return positiveness probability which could be used for fine-grained sentiment analysis in C#.  
+      Text sentiment analysis and text classification are two powerful technologies that can be used to extract meaningful insights from unstructured textual data and have numerous practical applications in various industries. These techniques can be applied in a wide range of use cases, from social media monitoring to customer feedback analysis, to categorizing news articles, to detecting spam emails, and much more.
+      
+      Sentiment analysis is the process of identifying the emotional tone of a piece of text. The goal of sentiment analysis is to extract subjective information from text to understand the author's opinion or emotional state.  This technology can be applied to social media monitoring, customer feedback analysis, brand reputation management, and much more to classify feedback or mentions into positive, negative, or neutral categories. 
+      
+      Text classification is the process of categorizing text into predefined classes or categories. This technology can be used to organize large collections of text documents or to filter out irrelevant information from a stream of text data. Text classification can be based on different criteria, such as semantics, sentiment, or IAB (Interactive Advertising Bureau) categories. IAB-based classification is used to categorize text based on the IAB categories. This approach is often used in advertising to classify content for ad targeting. For example, a software developer may use IAB-based classification to classify website content into different categories, such as arts and entertainment, health and fitness, or travel.
+      
+      Document categorization is a common use case for text classification that involves organizing documents into different categories based on their content. This can be useful in various industries, such as legal, finance, and healthcare, where there is a large amount of unstructured data that needs to be organized and analyzed. One way to implement document categorization is to use GroupDocs.Classification, a powerful text classification library that supports a wide range of document formats, including PDF, DOC, DOCX, RTF, and TXT. Our solution is built on top of machine learning algorithms that make it highly accurate and reliable, allowing you to make smarter decisions based on your text data. As a software developer, you can use text sentiment analysis and text classification to create a wide range of applications like a social media monitoring tool that tracks brand mentions and categorizes them by sentiment, a news aggregator that categorizes articles by topic, a spam email filter that uses text classification to identify and filter out spam emails or extract other meaningful insights from unstructured textual data and build applications that provide value to users.
+      
+      One of the best features of GroupDocs.Classification is its flexibility. This means that you can classify text with almost any type of document. Another great feature of GroupDocs.Classification is its user-friendly API. With just a few lines of code, you can integrate our library into your own application and start classifying text right away. Our API is easy to use and well-documented, so you can get up and running in no time. By using GroupDocs.Classification for document categorization, businesses can save time and resources by automating the process of organizing and analyzing their documents. This can lead to more efficient workflows, better decision-making, and ultimately, improved business outcomes.
 
-      GroupDocs.Classification for .NET uses its own document processing/classification engine and does not require any external tools to be installed on the system. It targets .NET platform to develop applications and supports all popular operating systems (Windows, Linux, macOS) where .NET frameworks (including .NET Core) can be installed.
+
     tabs:
       enable: true
       
@@ -158,7 +166,8 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: |
-          Classify documents by path using **IAB‑2**, **Documents**, **Sentiment**, or **Sentiment3** taxonomies
+          Different types of classification support, including **sentiment analysis**, **documents**, and **IAB** classification.
+
 
       # feature loop
       - icon: "fas fa-eye"
@@ -167,19 +176,27 @@ features:
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Sentiment Classification (Analysis) for English, Chinese, Spanish, and German"
+        content: "Sentiment analysis capabilities that enable businesses to analyze the emotional tone of text for English, Chinese, Spanish, and German"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Choose the number of classified results to return"
+        content: "IAB (Interactive Advertising Bureau) classification capabilities, enabling businesses to classify their content according to IAB taxonomy"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Work with PDF, Docs, OpenOffice and Rich Text documents"
+        content: "Wide range of document formats supports, including PDF, DOC, DOCX, RTF, and TXT as well as plain text"
 
       # feature loop
       - icon: "fas fa-cloud"
         content: "100% Working Examples & Demos are Given to Quickly Learn the Supported Features"
+        
+      # feature loop
+      - icon: "fas fa-bolt"
+        content: "Advanced machine learning algorithms to ensure high accuracy in classification results and multi-threading support to improve performance"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "User-friendly API that is easy to use and integrate with other software applications"
 
       # feature loop
       - icon: "fas fa-remove-format"
