@@ -179,7 +179,7 @@ features:
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "IAB (Interactive Advertising Bureau) classification capabilities, enabling businesses to classify their content according to IAB taxonomy"
+        content: "IAB (Interactive Advertising Bureau) capabilities, enabling businesses to classify their content according to IAB taxonomy"
         
       # feature loop
       - icon: "fas fa-copy"
@@ -203,7 +203,7 @@ features:
         
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Advanced machine learning algorithms to ensure high accuracy in classification results and multi-threading support to improve performance"
+        content: "Advanced ML algorithms to ensure high accuracy in classification results and multi-threading support to improve performance"
         
       # feature loop
       - icon: "fas fa-copy"
