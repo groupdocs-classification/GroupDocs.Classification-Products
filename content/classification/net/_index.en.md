@@ -168,7 +168,6 @@ features:
         content: |
           Different types of classification support, including **sentiment analysis**, **documents**, and **IAB** classification.
 
-
       # feature loop
       - icon: "fas fa-eye"
         content: |
@@ -181,10 +180,22 @@ features:
       # feature loop
       - icon: "fas fa-file-powerpoint"
         content: "IAB (Interactive Advertising Bureau) classification capabilities, enabling businesses to classify their content according to IAB taxonomy"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "Document classification capabilities to detect if documment is invoice, letter, CV, paper, etc."
 
       # feature loop
       - icon: "fas fa-code"
         content: "Wide range of document formats supports, including PDF, DOC, DOCX, RTF, and TXT as well as plain text"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "As implemented using Managed C#, GroupDocs.Classification can be used with any .NET language like C#, VB.NET and J#"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "Easy integration with any kind of application either it’s an ASP.NET Web Application or a Windows Application"
 
       # feature loop
       - icon: "fas fa-cloud"
