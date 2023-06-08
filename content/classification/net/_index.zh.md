@@ -60,9 +60,16 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Classification for .NET 是一个直观的 C# Netstandard 2.0 API，可帮助您使用 C#、ASP.NET 和其他基于 .NET 的技术创建功能强大的文本和文档分类/分类应用程序。 API 支持四种不同类型的分类法，并通过使用 IAB-2 分配标准化文本类别、Aspose 为不同文档类型开发的文档分类法或用于情感分析的 Sentiment（和 Sentiment3）提供高级文档和文本分类。 API 分析文本、句子甚至单词，并支持对各种行业标准文档格式进行分类，包括 PDF、Microsoft Word、OpenDocument、RTF 和 TXT。情感分析（分类）支持英语、汉语、西班牙语和德语语言自动检测。 API 可以返回积极性概率，可用于 C# 中的细粒度情感分析。
-
-      GroupDocs.Classification for .NET 使用自己的文档处理/分类引擎，不需要在系统上安装任何外部工具。它以 .NET 平台为目标开发应用程序，并支持所有可以安装 .NET 框架（包括 .NET Core）的流行操作系统（Windows、Linux、macOS）。
+      文本情感分析和文本分类是两种强大的技术，可用于从非结构化文本数据中提取有意义的见解，并在各行各业都有大量实际应用。 这些技术可应用于广泛的用例，从社交媒体监控到客户反馈分析，再到新闻文章分类，再到检测垃圾邮件等等。
+      
+      情感分析是识别一段文本的情感基调的过程。 情感分析的目标是从文本中提取主观信息，以了解作者的观点或情绪状态。 该技术可应用于社交媒体监控、客户反馈分析、品牌声誉管理等，以将反馈或提及分为正面、负面或中性类别。
+      
+      文本分类是将文本分类为预定义类或类别的过程。 该技术可用于组织大量文本文档或从文本数据流中过滤掉不相关的信息。 文本分类可以基于不同的标准，例如语义、情感或 IAB（互动广告局）类别。 基于 IAB 的分类用于根据 IAB 类别对文本进行分类。 这种方法通常用于广告中，以对内容进行分类以进行广告定位。 例如，软件开发人员可以使用基于 IAB 的分类将网站内容分类为不同的类别，例如艺术和娱乐、健康和健身或旅游。
+      
+      文档分类是文本分类的一个常见用例，它涉及根据文档的内容将文档组织成不同的类别。 这在法律、金融和医疗保健等各种行业中非常有用，在这些行业中需要组织和分析大量非结构化数据。 实现文档分类的一种方法是使用 GroupDocs.Classification，这是一个功能强大的文本分类库，支持多种文档格式，包括 PDF、DOC、DOCX、RTF 和 TXT。 我们的解决方案建立在机器学习算法之上，使其高度准确可靠，使您能够根据文本数据做出更明智的决策。 作为软件开发人员，您可以使用文本情感分析和文本分类来创建范围广泛的应用程序，例如跟踪品牌提及并按情感对其进行分类的社交媒体监控工具、按主题对文章进行分类的新闻聚合器、垃圾邮件过滤器 使用文本分类来识别和过滤垃圾邮件或从非结构化文本数据中提取其他有意义的见解，并构建为用户提供价值的应用程序。
+      
+      GroupDocs.Classification 的最佳功能之一是它的灵活性。 这意味着您可以使用几乎任何类型的文档对文本进行分类。 GroupDocs.Classification 的另一个重要特性是其用户友好的 API。 只需几行代码，您就可以将我们的库集成到您自己的应用程序中，并立即开始对文本进行分类。 我们的 API 易于使用且文档齐全，因此您可以立即启动并运行。 通过使用 GroupDocs.Classification 进行文档分类，企业可以通过自动化组织和分析文档的过程来节省时间和资源。 这可以带来更高效的工作流程、更好的决策制定，并最终改善业务成果。
+       
     tabs:
       enable: true
       
@@ -158,7 +165,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: |
-          使用 **IAB‑2**、**Documents**、**Sentiment** 或 **Sentiment3** 分类法按路径对文档进行分类
+          支持不同类型的分类，包括**情感分析**、**文档**和**IAB**分类。
 
       # feature loop
       - icon: "fas fa-eye"
@@ -167,23 +174,43 @@ features:
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "英语、汉语、西班牙语和德语的情绪分类（分析）"
+        content: "情感分析功能，使企业能够分析英语、中文、西班牙语和德语文本的情感基调"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "选择要返回的分类结果的数量"
+        content: "IAB（互动广告局）功能，使企业能够根据 IAB 分类法对其内容进行分类"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "文档分类功能，可检测文档是否为发票、信件、简历、纸张等。"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "处理 PDF、Docs、OpenOffice 和 Rich Text 文档"
+        content: "广泛的文档格式支持，包括 PDF、DOC、DOCX、RTF 和 TXT 以及纯文本"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "由于使用托管 C# 实现，GroupDocs.Classification 可用于任何 .NET 语言，如 C#、VB.NET 和 J#"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "与任何类型的应用程序轻松集成，无论是 ASP.NET Web 应用程序还是 Windows 应用程序"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "提供 100% 工作示例和演示，以快速了解支持的功能"
+        content: "提供 100% 工作示例和演示以快速了解支持的功能"
+        
+      # feature loop
+      - icon: "fas fa-bolt"
+        content: "先进的 ML 算法可确保分类结果的高精度和多线程支持以提高性能"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "用户友好的 API，易于使用并与其他软件应用程序集成"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "通过产品论坛提供无限制的免费技术支持"
+        content: "通过产品论坛提供的无限免费技术支持"
 
     more_feature:
       # more_feature_loop

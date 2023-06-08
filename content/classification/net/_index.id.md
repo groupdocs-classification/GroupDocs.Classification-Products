@@ -50,9 +50,16 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Classification for .NET adalah C# Netstandard 2.0 API intuitif yang membantu Anda membuat aplikasi klasifikasi/kategorisasi teks dan dokumen yang kuat di C#, ASP.NET, dan teknologi berbasis .NET lainnya. API mendukung empat jenis taksonomi yang berbeda dan menawarkan klasifikasi dokumen dan teks tingkat lanjut dengan menggunakan IAB-2 untuk menetapkan kategori teks standar, Taksonomi dokumen yang dikembangkan oleh Aspose untuk berbagai jenis dokumen, atau Sentimen (dan Sentimen3) untuk analisis sentimen. API menganalisis teks, kalimat, bahkan kata-kata dan mendukung klasifikasi berbagai format dokumen standar industri termasuk PDF, Microsoft Word, OpenDocument, RTF, dan TXT. Analisis sentimen (klasifikasi) mendukung bahasa Inggris, Cina, Spanyol, dan Jerman dengan deteksi otomatis bahasa. API dapat mengembalikan probabilitas positif yang dapat digunakan untuk analisis sentimen berbutir halus di C#.  
-
-      GroupDocs.Classification untuk .NET menggunakan mesin pengolah/klasifikasi dokumennya sendiri dan tidak memerlukan alat eksternal apa pun untuk diinstal pada sistem. Ini menargetkan platform .NET untuk mengembangkan aplikasi dan mendukung semua sistem operasi populer (Windows, Linux, macOS) di mana kerangka kerja .NET (termasuk .NET Core) dapat diinstal.
+      Analisis sentimen teks dan klasifikasi teks adalah dua teknologi canggih yang dapat digunakan untuk mengekstrak wawasan bermakna dari data tekstual yang tidak terstruktur dan memiliki banyak aplikasi praktis di berbagai industri. Teknik ini dapat diterapkan dalam berbagai kasus penggunaan, mulai dari pemantauan media sosial hingga analisis umpan balik pelanggan, hingga mengkategorikan artikel berita, hingga mendeteksi email spam, dan banyak lagi.
+      
+      Analisis sentimen adalah proses mengidentifikasi nada emosional dari sebuah teks. Tujuan dari analisis sentimen adalah untuk mengekstrak informasi subyektif dari teks untuk memahami pendapat atau keadaan emosional penulis. Teknologi ini dapat diterapkan pada pemantauan media sosial, analisis umpan balik pelanggan, manajemen reputasi merek, dan banyak lagi untuk mengklasifikasikan umpan balik atau sebutan ke dalam kategori positif, negatif, atau netral.
+      
+      Klasifikasi teks adalah proses mengkategorikan teks ke dalam kelas atau kategori yang telah ditentukan. Teknologi ini dapat digunakan untuk mengatur kumpulan besar dokumen teks atau untuk menyaring informasi yang tidak relevan dari aliran data teks. Klasifikasi teks dapat didasarkan pada kriteria yang berbeda, seperti kategori semantik, sentimen, atau IAB (Interactive Advertising Bureau). Klasifikasi berbasis IAB digunakan untuk mengkategorikan teks berdasarkan kategori IAB. Pendekatan ini sering digunakan dalam periklanan untuk mengklasifikasikan konten untuk penargetan iklan. Misalnya, pengembang perangkat lunak dapat menggunakan klasifikasi berbasis IAB untuk mengklasifikasikan konten situs web ke dalam berbagai kategori, seperti seni dan hiburan, kesehatan dan kebugaran, atau perjalanan.
+      
+      Kategorisasi dokumen adalah kasus penggunaan umum untuk klasifikasi teks yang melibatkan pengorganisasian dokumen ke dalam kategori berbeda berdasarkan kontennya. Ini dapat berguna di berbagai industri, seperti hukum, keuangan, dan perawatan kesehatan, di mana terdapat banyak data tidak terstruktur yang perlu diatur dan dianalisis. Salah satu cara untuk mengimplementasikan kategorisasi dokumen adalah dengan menggunakan GroupDocs.Classification, pustaka klasifikasi teks canggih yang mendukung berbagai format dokumen, termasuk PDF, DOC, DOCX, RTF, dan TXT. Solusi kami dibangun di atas algoritme pembelajaran mesin yang membuatnya sangat akurat dan andal, memungkinkan Anda membuat keputusan yang lebih cerdas berdasarkan data teks Anda. Sebagai pengembang perangkat lunak, Anda dapat menggunakan analisis sentimen teks dan klasifikasi teks untuk membuat berbagai aplikasi seperti alat pemantauan media sosial yang melacak penyebutan merek dan mengkategorikannya berdasarkan sentimen, agregator berita yang mengkategorikan artikel berdasarkan topik, filter email spam yang menggunakan klasifikasi teks untuk mengidentifikasi dan memfilter email spam atau mengekstrak wawasan bermakna lainnya dari data tekstual tidak terstruktur dan membuat aplikasi yang memberikan nilai bagi pengguna.
+      
+      Salah satu fitur terbaik dari GroupDocs.Classification adalah fleksibilitasnya. Ini berarti Anda dapat mengklasifikasikan teks dengan hampir semua jenis dokumen. Fitur hebat lainnya dari GroupDocs.Classification adalah API yang mudah digunakan. Hanya dengan beberapa baris kode, Anda dapat mengintegrasikan pustaka kami ke dalam aplikasi Anda sendiri dan langsung mulai mengklasifikasikan teks. API kami mudah digunakan dan terdokumentasi dengan baik, sehingga Anda dapat bangun dan berjalan dalam waktu singkat. Dengan menggunakan GroupDocs.Classification untuk kategorisasi dokumen, bisnis dapat menghemat waktu dan sumber daya dengan mengotomatiskan proses pengorganisasian dan analisis dokumen mereka. Hal ini dapat menghasilkan alur kerja yang lebih efisien, pengambilan keputusan yang lebih baik, dan pada akhirnya, hasil bisnis yang lebih baik.
+       
     tabs:
       enable: true
       
@@ -135,28 +142,55 @@ features:
     title: "Fitur API Klasifikasi Teks & Dokumen Tingkat Lanjut"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
         content: |
-          Klasifikasikan dokumen berdasarkan jalur menggunakan taksonomi **IAB‑2**, **Documents**, **Sentiment**, atau **Sentiment3**
+          Berbagai jenis dukungan klasifikasi, termasuk **analisis sentimen**, **dokumen**, dan klasifikasi **IAB**.
 
+      # feature loop
       - icon: "fas fa-eye"
         content: |
-          Melakukan Klasifikasi Teks Mentah dengan taksonomi **IAB‑2**, **Documents**, **Sentiment**, atau **Sentiment3**
+          Lakukan Klasifikasi Teks Mentah dengan taksonomi **IAB‑2**, **Dokumen**, **Sentimen**, atau **Sentimen3**
 
+      # feature loop
       - icon: "fas fa-bolt"
-        content: "Klasifikasi Sentimen (Analisis) untuk bahasa Inggris, Cina, Spanyol, dan Jerman"
+        content: "Kemampuan analisis sentimen yang memungkinkan bisnis menganalisis nada emosional teks untuk bahasa Inggris, China, Spanyol, dan Jerman"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Pilih jumlah hasil rahasia untuk dikembalikan"
+        content: "Kemampuan IAB (Biro Periklanan Interaktif), memungkinkan bisnis mengklasifikasikan konten mereka menurut taksonomi IAB"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "Kemampuan klasifikasi dokumen untuk mendeteksi jika dokumen adalah faktur, surat, CV, kertas, dll."
 
+      # feature loop
       - icon: "fas fa-code"
-        content: "Bekerja dengan dokumen PDF, Docs, OpenOffice dan Rich Text"
+        content: "Beragam format dokumen mendukung, termasuk PDF, DOC, DOCX, RTF, dan TXT serta teks biasa"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "Sebagaimana diimplementasikan menggunakan Managed C#, GroupDocs.Classification dapat digunakan dengan bahasa .NET seperti C#, VB.NET dan J#"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "Integrasi yang mudah dengan segala jenis aplikasi baik itu Aplikasi Web ASP.NET atau Aplikasi Windows"
 
+      # feature loop
       - icon: "fas fa-cloud"
-        content: "100% Contoh Kerja & Demo Diberikan untuk Mempelajari Fitur yang Didukung dengan Cepat"
+        content: "100% Contoh Kerja dan Demo Diberikan untuk Mempelajari Fitur yang Didukung dengan Cepat"
+        
+      # feature loop
+      - icon: "fas fa-bolt"
+        content: "Algoritme ML canggih untuk memastikan akurasi tinggi dalam hasil klasifikasi dan dukungan multi-threading untuk meningkatkan kinerja"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "API ramah pengguna yang mudah digunakan dan diintegrasikan dengan aplikasi perangkat lunak lain"
 
+      # feature loop
       - icon: "fas fa-remove-format"
-        content: "Dukungan Teknis Gratis Tanpa Batas yang Disediakan melalui Forum Produk"
+        content: "Dukungan Teknis Gratis Tanpa Batas Disediakan melalui Forum Produk"
 
     more_feature:
       - title: "Klasifikasi Dokumen yang Tepat"

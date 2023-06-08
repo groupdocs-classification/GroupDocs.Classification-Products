@@ -50,9 +50,16 @@ submenu:
 overview:
     enable: true
     content: |
-      .NET용 GroupDocs.Classification은 C#, ASP.NET 및 기타 .NET 기반 기술에서 강력한 텍스트 및 문서 분류/분류 응용 프로그램을 만드는 데 도움이 되는 직관적인 C# Netstandard 2.0 API입니다. API는 4가지 유형의 분류법을 지원하고 표준화된 텍스트 범주를 할당하기 위해 IAB-2를 사용하고 다양한 문서 유형에 대해 Aspose에서 개발한 문서 분류법을 사용하거나 감정 분석을 위해 Sentiment(및 Sentiment3)를 사용하여 고급 문서 및 텍스트 분류를 제공합니다. API는 텍스트, 문장, 단어까지 분석하고 PDF, Microsoft Word, OpenDocument, RTF 및 TXT를 포함한 다양한 산업 표준 문서 형식 분류를 지원합니다. 감정 분석(분류)은 언어 자동 감지로 영어, 중국어, 스페인어, 독일어를 지원합니다. API는 C#에서 세분화된 감정 분석에 사용할 수 있는 긍정 확률을 반환할 수 있습니다.  
+      텍스트 감정 분석 및 텍스트 분류는 구조화되지 않은 텍스트 데이터에서 의미 있는 통찰력을 추출하는 데 사용할 수 있는 두 가지 강력한 기술이며 다양한 산업 분야에서 수많은 실용적인 응용 프로그램을 보유하고 있습니다. 이러한 기술은 소셜 미디어 모니터링에서 고객 피드백 분석, 뉴스 기사 분류, 스팸 이메일 감지 등에 이르기까지 광범위한 사용 사례에 적용될 수 있습니다.
+      
+      감정 분석은 텍스트 조각의 감정적 톤을 식별하는 프로세스입니다. 감정 분석의 목표는 텍스트에서 주관적인 정보를 추출하여 작성자의 의견이나 감정 상태를 이해하는 것입니다. 이 기술은 소셜 미디어 모니터링, 고객 피드백 분석, 브랜드 평판 관리 등에 적용하여 피드백이나 언급을 긍정적, 부정적 또는 중립적 범주로 분류할 수 있습니다.
+      
+      텍스트 분류는 텍스트를 미리 정의된 클래스 또는 범주로 분류하는 프로세스입니다. 이 기술은 대량의 텍스트 문서 모음을 구성하거나 텍스트 데이터 스트림에서 관련 없는 정보를 필터링하는 데 사용할 수 있습니다. 텍스트 분류는 의미 체계, 감정 또는 IAB(Interactive Advertising Bureau) 범주와 같은 다양한 기준을 기반으로 할 수 있습니다. IAB 기반 분류는 IAB 범주를 기반으로 텍스트를 분류하는 데 사용됩니다. 이 접근 방식은 광고 타겟팅을 위해 콘텐츠를 분류하기 위해 광고에서 자주 사용됩니다. 예를 들어 소프트웨어 개발자는 IAB 기반 분류를 사용하여 웹 사이트 콘텐츠를 예술 및 엔터테인먼트, 건강 및 피트니스 또는 여행과 같은 다양한 범주로 분류할 수 있습니다.
+      
+      문서 분류는 문서를 내용에 따라 다른 범주로 구성하는 것과 관련된 텍스트 분류의 일반적인 사용 사례입니다. 이는 정리하고 분석해야 하는 비정형 데이터가 많은 법률, 금융, 의료 등 다양한 산업에서 유용할 수 있습니다. 문서 분류를 구현하는 한 가지 방법은 PDF, DOC, DOCX, RTF 및 TXT를 비롯한 광범위한 문서 형식을 지원하는 강력한 텍스트 분류 라이브러리인 GroupDocs.Classification을 사용하는 것입니다. 당사의 솔루션은 매우 정확하고 신뢰할 수 있는 기계 학습 알고리즘을 기반으로 구축되어 텍스트 데이터를 기반으로 더 현명한 결정을 내릴 수 있습니다. 소프트웨어 개발자는 텍스트 감정 분석 및 텍스트 분류를 사용하여 브랜드 언급을 추적하고 감정별로 분류하는 소셜 미디어 모니터링 도구, 주제별로 기사를 분류하는 뉴스 수집기, 스팸 이메일 필터와 같은 다양한 애플리케이션을 만들 수 있습니다. 텍스트 분류를 사용하여 스팸 이메일을 식별 및 필터링하거나 구조화되지 않은 텍스트 데이터에서 다른 의미 있는 통찰력을 추출하고 사용자에게 가치를 제공하는 애플리케이션을 구축합니다.
+      
+      GroupDocs.Classification의 가장 좋은 기능 중 하나는 유연성입니다. 이는 거의 모든 유형의 문서로 텍스트를 분류할 수 있음을 의미합니다. GroupDocs.Classification의 또 다른 뛰어난 기능은 사용자 친화적인 API입니다. 몇 줄의 코드만으로 라이브러리를 자신의 애플리케이션에 통합하고 텍스트 분류를 바로 시작할 수 있습니다. 우리의 API는 사용하기 쉽고 잘 문서화되어 있으므로 즉시 시작하고 실행할 수 있습니다. 문서 분류에 GroupDocs.Classification을 사용하면 기업은 문서를 구성하고 분석하는 프로세스를 자동화하여 시간과 리소스를 절약할 수 있습니다. 이를 통해 보다 효율적인 워크플로, 더 나은 의사 결정, 궁극적으로 비즈니스 성과 개선으로 이어질 수 있습니다.
 
-      .NET용 GroupDocs.Classification은 자체 문서 처리/분류 엔진을 사용하며 시스템에 외부 도구를 설치할 필요가 없습니다. .NET 플랫폼을 대상으로 애플리케이션을 개발하고 .NET 프레임워크(.NET Core 포함)를 설치할 수 있는 모든 인기 있는 운영 체제(Windows, Linux, macOS)를 지원합니다.
     tabs:
       enable: true
       
@@ -135,28 +142,55 @@ features:
     title: "고급 텍스트 및 문서 분류 API 기능"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
         content: |
-          **IAB‑2**, **Documents**, **Sentiment** 또는 **Sentiment3** 분류를 사용하여 경로별로 문서 분류
+          **감정 분석**, **문서**, **IAB** 분류 등 다양한 유형의 분류를 지원합니다.
 
+      # feature loop
       - icon: "fas fa-eye"
         content: |
-          **IAB‑2**, **Documents**, **Sentiment** 또는 **Sentiment3** 분류를 사용하여 원시 텍스트 분류 수행
+          **IAB‑2**, **Documents**, **Sentiment** 또는 **Sentiment3** 분류법으로 원시 텍스트 분류 수행
 
+      # feature loop
       - icon: "fas fa-bolt"
-        content: "영어, 중국어, 스페인어, 독일어 감정 분류(분석)"
+        content: "기업이 영어, 중국어, 스페인어, 독일어 텍스트의 감성 톤을 분석할 수 있는 감성 분석 기능"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "반환할 분류된 결과의 수를 선택하십시오."
+        content: "기업이 IAB 분류법에 따라 콘텐츠를 분류할 수 있도록 하는 IAB(Interactive Advertising Bureau) 기능"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "문서가 송장, 편지, 이력서, 종이 등인지 감지하는 문서 분류 기능"
 
+      # feature loop
       - icon: "fas fa-code"
-        content: "PDF, 문서, OpenOffice 및 서식 있는 텍스트 문서 작업"
+        content: "PDF, DOC, DOCX, RTF, TXT 및 일반 텍스트를 포함한 광범위한 문서 형식 지원"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "관리형 C#을 사용하여 구현된 GroupDocs.Classification은 C#, VB.NET 및 J#과 같은 모든 .NET 언어와 함께 사용할 수 있습니다."
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "ASP.NET 웹 응용 프로그램 또는 Windows 응용 프로그램과 같은 모든 종류의 응용 프로그램과 쉽게 통합"
 
+      # feature loop
       - icon: "fas fa-cloud"
-        content: "100% 작동 예제 및 데모가 제공되어 지원되는 기능을 빠르게 학습할 수 있습니다."
+        content: "지원되는 기능을 빠르게 학습할 수 있도록 100% 작업 예제 및 데모가 제공됩니다."
+        
+      # feature loop
+      - icon: "fas fa-bolt"
+        content: "분류 결과의 높은 정확도를 보장하는 고급 ML 알고리즘과 성능 향상을 위한 멀티스레딩 지원"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "사용하기 쉽고 다른 소프트웨어 애플리케이션과 통합되는 사용자 친화적인 API"
 
+      # feature loop
       - icon: "fas fa-remove-format"
-        content: "제품 포럼을 통해 무제한 무료 기술 지원 제공"
+        content: "제품 포럼을 통해 제공되는 무제한 무료 기술 지원"
 
     more_feature:
       - title: "정확한 문서 분류"

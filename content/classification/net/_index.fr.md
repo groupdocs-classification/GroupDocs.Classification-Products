@@ -60,9 +60,16 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Classification pour .NET est une API C# Netstandard 2.0 intuitive qui vous aide à créer de puissantes applications de classification/catégorisation de textes et de documents en C#, ASP.NET et d'autres technologies basées sur .NET. L'API prend en charge quatre types de taxonomies différents et offre une classification avancée des documents et des textes en utilisant IAB-2 pour attribuer des catégories de texte normalisées, la taxonomie des documents telle que développée par Aspose pour différents types de documents, ou Sentiment (et Sentiment3) pour l'analyse des sentiments. L'API analyse le texte, les phrases et même les mots et prend en charge la classification de divers formats de documents standard, notamment PDF, Microsoft Word, OpenDocument, RTF et TXT. L'analyse des sentiments (classification) prend en charge les langues anglaise, chinoise, espagnole et allemande avec détection automatique de la langue. L'API peut renvoyer une probabilité de positivité qui pourrait être utilisée pour une analyse fine des sentiments en C#.
-
-      GroupDocs.Classification pour .NET utilise son propre moteur de traitement/classification de documents et ne nécessite l'installation d'aucun outil externe sur le système. Il cible la plate-forme .NET pour développer des applications et prend en charge tous les systèmes d'exploitation courants (Windows, Linux, macOS) sur lesquels les frameworks .NET (y compris .NET Core) peuvent être installés.
+      L'analyse des sentiments de texte et la classification de texte sont deux technologies puissantes qui peuvent être utilisées pour extraire des informations significatives à partir de données textuelles non structurées et ont de nombreuses applications pratiques dans diverses industries. Ces techniques peuvent être appliquées dans un large éventail de cas d'utilisation, de la surveillance des médias sociaux à l'analyse des commentaires des clients, en passant par la catégorisation des articles d'actualité, la détection des spams, et bien plus encore.
+      
+      L'analyse des sentiments est le processus d'identification du ton émotionnel d'un morceau de texte. Le but de l'analyse des sentiments est d'extraire des informations subjectives du texte pour comprendre l'opinion ou l'état émotionnel de l'auteur. Cette technologie peut être appliquée à la surveillance des médias sociaux, à l'analyse des commentaires des clients, à la gestion de la réputation de la marque et bien plus encore pour classer les commentaires ou les mentions en catégories positives, négatives ou neutres.
+      
+      La classification de texte est le processus de catégorisation du texte en classes ou catégories prédéfinies. Cette technologie peut être utilisée pour organiser de grandes collections de documents texte ou pour filtrer les informations non pertinentes d'un flux de données texte. La classification du texte peut être basée sur différents critères, tels que la sémantique, le sentiment ou les catégories IAB (Interactive Advertising Bureau). La classification basée sur l'IAB est utilisée pour catégoriser le texte en fonction des catégories de l'IAB. Cette approche est souvent utilisée dans la publicité pour classer le contenu pour le ciblage publicitaire. Par exemple, un développeur de logiciels peut utiliser la classification basée sur l'IAB pour classer le contenu du site Web dans différentes catégories, telles que les arts et le divertissement, la santé et la forme physique ou les voyages.
+      
+      La catégorisation de documents est un cas d'utilisation courant pour la classification de texte qui implique l'organisation de documents en différentes catégories en fonction de leur contenu. Cela peut être utile dans divers secteurs, tels que le droit, la finance et la santé, où il existe une grande quantité de données non structurées qui doivent être organisées et analysées. Une façon de mettre en œuvre la catégorisation des documents consiste à utiliser GroupDocs.Classification, une puissante bibliothèque de classification de texte qui prend en charge un large éventail de formats de documents, notamment PDF, DOC, DOCX, RTF et TXT. Notre solution est construite sur des algorithmes d'apprentissage automatique qui la rendent très précise et fiable, vous permettant de prendre des décisions plus intelligentes en fonction de vos données textuelles. En tant que développeur de logiciels, vous pouvez utiliser l'analyse des sentiments de texte et la classification de texte pour créer une large gamme d'applications comme un outil de surveillance des médias sociaux qui suit les mentions de marque et les catégorise par sentiment, un agrégateur de nouvelles qui catégorise les articles par sujet, un filtre de courrier indésirable qui utilise la classification de texte pour identifier et filtrer les spams ou extraire d'autres informations significatives à partir de données textuelles non structurées et créer des applications qui apportent de la valeur aux utilisateurs.
+      
+      L'une des meilleures caractéristiques de GroupDocs.Classification est sa flexibilité. Cela signifie que vous pouvez classer du texte avec presque n'importe quel type de document. Une autre grande fonctionnalité de GroupDocs.Classification est son API conviviale. Avec seulement quelques lignes de code, vous pouvez intégrer notre bibliothèque dans votre propre application et commencer immédiatement à classer du texte. Notre API est facile à utiliser et bien documentée, vous pouvez donc être opérationnel en un rien de temps. En utilisant GroupDocs.Classification pour la catégorisation des documents, les entreprises peuvent économiser du temps et des ressources en automatisant le processus d'organisation et d'analyse de leurs documents. Cela peut conduire à des flux de travail plus efficaces, à une meilleure prise de décision et, en fin de compte, à de meilleurs résultats commerciaux.
+       
     tabs:
       enable: true
       
@@ -158,7 +165,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: |
-          Classer les documents par chemin à l'aide des taxonomies **IAB‑2**, **Documents**, **Sentiment** ou **Sentiment3**
+          Différents types de prise en charge de la classification, y compris l'**analyse des sentiments**, les **documents** et la classification **IAB**.
 
       # feature loop
       - icon: "fas fa-eye"
@@ -167,19 +174,39 @@ features:
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Classification des sentiments (analyse) pour l'anglais, le chinois, l'espagnol et l'allemand"
+        content: "Capacités d'analyse des sentiments qui permettent aux entreprises d'analyser le ton émotionnel du texte pour l'anglais, le chinois, l'espagnol et l'allemand"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Choisissez le nombre de résultats classés à renvoyer"
+        content: "Capacités IAB (Interactive Advertising Bureau), permettant aux entreprises de classer leur contenu selon la taxonomie IAB"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "Capacités de classification de documents pour détecter si le document est une facture, une lettre, un CV, un papier, etc."
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Travailler avec des documents PDF, Docs, OpenOffice et Rich Text"
+        content: "Large gamme de formats de documents pris en charge, y compris PDF, DOC, DOCX, RTF et TXT ainsi que du texte brut"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "Comme implémenté à l'aide de Managed C#, GroupDocs.Classification peut être utilisé avec n'importe quel langage .NET comme C#, VB.NET et J#"
+        
+      # feature loop
+      - icon: "fas fa-eye"
+        content: "Intégration facile avec tout type d'application, qu'il s'agisse d'une application Web ASP.NET ou d'une application Windows"
 
       # feature loop
       - icon: "fas fa-cloud"
         content: "100 % d'exemples de travail et de démonstrations sont donnés pour apprendre rapidement les fonctionnalités prises en charge"
+        
+      # feature loop
+      - icon: "fas fa-bolt"
+        content: "Algorithmes ML avancés pour garantir une grande précision dans les résultats de classification et prise en charge du multithreading pour améliorer les performances"
+        
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "API conviviale facile à utiliser et à intégrer à d'autres applications logicielles"
 
       # feature loop
       - icon: "fas fa-remove-format"
