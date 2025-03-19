@@ -1,88 +1,185 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2021-04-27T09:31:06+03:00
+layout: "family"
+date:  2025-03-17T15:57:00
 draft: false
 
+product: "Classification"
+product_tag: "classification"
+
+lang: zh
+
 ############################# Head ############################
-head_title: ".NET、云 API 和在线文档和文本分类解决方案"
-head_description: ".NET 云云 API 和 在线文档 和 文本分类 开发者解决方案。在任何 .NET 应用程序中对 Word、PDF、OpenDocument、RTF 和文本文件进行分类。"
+head_title: "用于文档和文本分类以及情感分析的.NET API"
+head_description: "强大的.NET库，使用IAB-2、文档和情感分类法进行文档和文本分类。支持多种文件格式和语言。"
 
 ############################# Header ############################
-title: "文档和文本分类器解决方案"
-description: "在任何类型的 .NET 应用程序中使用 IAB（第 2 版）、文档和情感分类法以编程方式将文档和文本分类为准确的类别."
+title: "文档和文本分类解决方案"
+description: |
+  使用我们的.NET API轻松地使用各种分类法对文档和文本进行分类。
 
-############################# APIs ###############################
-apis:
+  对多种文件格式和语言的内容进行情感分析和分类。
+
+  只需几行代码即可将高级分类功能集成到您的.NET应用程序中。
+
+############################# Supported Platforms ###############################
+supported_platforms:
   enable: true
+  head_title: "选择您的平台"
+  title: "平台独立性"
+  description: "GroupDocs.Classification for .NET与以下操作系统和框架兼容："
+  details_link_title: "了解更多"
 
-  api:
-    # api loop
-    - title: "GroupDocs.Classification 高代码 API 包括"
-      link: "/classification/"
-      label: "查看所有高代码 API"
-      api_product:
-        # api_product loop
-        - link: "/classification/net/"
-          img_alt: "GroupDocs.Classification for .NET"
-          image: "/border/groupdocs-classification-net.svg"
-          product: "GroupDocs.Classification for"
-          platform: ".NET"
-          content: "开发具有文档和文本分类功能的 .NET 应用程序，以在不使用任何外部工具的情况下分析和提取内容."
+  items:
+    # items loop
+    - title: ".NET"
+      description: GroupDocs.Classification for .NET
+      color: "blue"
+      tag: "net"
+      link: "/classification/net/"
+      features_link: "https://docs.groupdocs.com/classification/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    .NET Core 2.0或更高版本  .NET Framework 4.7或更高版本
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows Desktop (x64)  Windows Server (x64)  Windows Azure  Mac OS X x64 (10.12+)
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Microsoft Visual Studio  JetBrains Rider  MonoDevelop
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    10+种文件格式
 
-    # api loop
-    - title: "GroupDocs.Classification 低代码 API 包括"
-      link: "https://products.groupdocs.cloud/classification"
-      label: "查看所有低代码 API"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/classification/curl"
-          img_alt: "GroupDocs.Classification Cloud for cURL"
-          image: "/sdk/groupdocs_classification-for-curl.svg"
-          product: "GroupDocs.Classification"
-          platform: "Cloud for cURL"
-          content: "不用担心平台，只需发送一个 REST API 调用即可对来自能够执行 cURL 命令的设备的文本和 MS Word、OpenOffice、PDF 文档进行分类."
-
-        # api_product loop
-        - link: "https://products.groupdocs.cloud/classification/net"
-          img_alt: "GroupDocs.Classification Cloud SDK for .NET"
-          image: "/sdk/groupdocs_classification-for-net.svg"
-          product: "GroupDocs.Classification"
-          platform: "Cloud SDK for .NET"
-          content: "为 .NET 开发人员设计的开源云 SDK 以使用 GroupDocs.Classification REST API."
-
-    # api loop
-    - title: "GroupDocs.Classification 无代码应用程序包括"
-      link: "https://products.groupdocs.app/classification"
-      label: "查看所有无代码应用程序"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.app/classification/total"
-          img_alt: "GroupDocs.Classification Total"
-          image: "/app/groupdocs_classification-total-app.svg"
-          product: "GroupDocs.Classification"
-          platform: "Total"
-          content: "试用免费应用程序对原始文本和 Microsoft Word、OpenOffice、PDF、TXT 和 amp; 进行分类RTF 文件在线。"
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/classification/docx"
-          img_alt: "GroupDocs.Classification DOCX"
-          image: "/app/groupdocs_words-app.svg"
-          product: "GroupDocs.Classification"
-          platform: "DOCX"
-          content: |
-            根据 **IAB-2**、**Documents** 或 **Sentiment** 分类法对 DOCX 文档进行分类。
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/classification/pdf"
-          img_alt: "GroupDocs.Classification PDF"
-          image: "/app/groupdocs_pdf-app.svg"
-          product: "GroupDocs.Classification"
-          platform: "PDF"
-          content: |
-            根据 **IAB-2**、**Documents** 或 **Sentiment** 分类法对 DOCX 文档进行分类。
-
-############################# Back to top ###############################
-back_to_top:
+############################# Features ###############################
+features:
   enable: true
+  title: "GroupDocs.Classification主要特性"
+  description: "该解决方案帮助您使用各种分类法对文档和文本进行分类，执行情感分析，并将高级分类功能集成到您的.NET应用程序中。"
+
+  items:
+    # items loop
+    - icon: "classify"
+      title: "多种分类法"
+      content: "使用IAB-2、文档和情感分类法进行分类。"
+
+    # items loop
+    - icon: "format"
+      title: "广泛的格式支持"
+      content: "处理各种文档格式，包括DOC、DOCX、PDF等。"
+
+    # items loop
+    - icon: "analyze"
+      title: "情感分析"
+      content: "对英文和中文文本进行情感分类。"
+
+    # items loop
+    - icon: "integrate"
+      title: "易于集成"
+      content: "只需几行代码即可集成分类功能。"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "轻松分类文档"
+  description: "GroupDocs.Classification代码示例"
+  items:
+    # code sample loop
+    - title: "使用IAB-2分类法对PDF进行分类"
+      content: |
+       GroupDocs.Classification允许您使用IAB-2分类法轻松对PDF文档进行分类。只需指定文档路径、所需结果数量和分类法类型即可获得分类结果。
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp
+            // 创建Classifier实例
+            var classifier = new GroupDocs.Classification.Classifier();
+
+            // 对文档进行分类
+            var response = classifier.Classify("document.pdf", ".", 3, Taxonomy.Iab2);
+
+            // 打印最佳类别及其概率
+            Console.WriteLine($"最佳类别：{response.BestClassName}，概率：{response.BestClassProbability}");
+            ```
+
+############################# Supported Formats ###############################
+formats:
+  enable: true
+  title: "支持10+种文件格式"
+  description: "GroupDocs.Classification可处理各种流行的文档格式"
+
+############################# Metrics ###############################
+metrics:
+  enable: true
+  title: "深入的指标和洞察"
+  description: "深入了解我们的详细指标，全面了解我们的性能和增长。"
+
+  items:
+    # items loop
+    - number: "10+"
+      title: "支持的格式"
+      content: "我们支持10多种最广泛使用的文档格式。"
+
+    # items loop
+    - number: "3"
+      title: "支持的分类法"
+      content: "使用IAB-2、文档和情感分类法对内容进行分类。"
+
+    # items loop
+    - number: "2"
+      title: "情感分析支持的语言"
+      content: "对英文和中文进行情感分类。"
+
+    # items loop
+    - number: "4.7+"
+      title: ".NET Framework支持"
+      content: "兼容.NET Framework 4.7或更高版本和.NET Core 2.0或更高版本。"
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "准备好开始了吗？"
+  description: "在您的平台上免费试用GroupDocs.Classification功能。"
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/classification/net/"
+
+############################# FAQ ###############################
+faq:
+  enable: true
+  title: "常见问题"
+  description: "关于GroupDocs.Classification的常见问题解答。"
+
+  items:
+    # items loop
+    - question: "我可以使用GroupDocs.Classification对哪些类型的文档进行分类？"
+      answer: "GroupDocs.Classification支持各种文档格式，包括Microsoft Word（DOC、DOCX、RTF）、OpenOffice（ODT）、PDF和纯文本（TXT）文件。"
+
+    # items loop
+    - question: "我可以使用GroupDocs.Classification进行情感分析吗？"
+      answer: "是的，GroupDocs.Classification支持对英文和中文文本进行情感分析，允许您确定文档或文本片段的情感。"
+
+    # items loop
+    - question: "是否可以将GroupDocs.Classification集成到我现有的.NET应用程序中？"
+      answer: "当然可以！GroupDocs.Classification提供了一个用户友好的API，只需几行代码就可以轻松集成到您的.NET应用程序中。它设计为与您现有的工作流程无缝协作。"
+
+############################# Cloud Links ###############################
+cloud_links:
+  enable: false
+
+############################# App links ###############################
+app_links:
+  enable: false
 ---

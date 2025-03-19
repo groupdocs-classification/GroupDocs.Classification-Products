@@ -1,74 +1,185 @@
 ---
-layout: "product"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "family"
+date:  2025-03-17T15:57:00
 draft: false
 
-head_title: ".Solusi .NET, Cloud API & Dokumen Online & Klasifikasi Teks"
-head_description: ".NET, Cloud APIs & Solusi Klasifikasi Teks & Dokumen Online untuk pengembang. Mengklasifikasikan file Word, PDF, OpenDocument, RTF, dan Teks dalam aplikasi .NET apa pun."
+product: "Classification"
+product_tag: "classification"
 
-title: "Solusi Pengklasifikasi Dokumen & Teks"
-description: "Secara terprogram mengklasifikasikan dokumen dan teks ke dalam kategori yang akurat menggunakan IAB (versi 2), taksonomi Dokumen dan Sentimen dalam semua jenis aplikasi .NET."
+lang: id
 
-apis:
+############################# Head ############################
+head_title: "API .NET untuk Klasifikasi Dokumen & Teks dan Analisis Sentimen"
+head_description: "Pustaka .NET yang kuat untuk klasifikasi dokumen dan teks menggunakan taksonomi IAB-2, Dokumen, dan Sentimen. Mendukung berbagai format file dan bahasa."
+
+############################# Header ############################
+title: "Solusi Klasifikasi Dokumen & Teks"
+description: |
+  Klasifikasikan dokumen dan teks dengan mudah menggunakan berbagai taksonomi dengan API .NET kami.
+
+  Lakukan analisis sentimen dan kategorisasi konten di berbagai format file dan bahasa.
+
+  Integrasikan kemampuan klasifikasi canggih ke dalam aplikasi .NET Anda hanya dengan beberapa baris kode.
+
+############################# Supported Platforms ###############################
+supported_platforms:
   enable: true
+  head_title: "Pilih platform Anda"
+  title: "Independensi platform"
+  description: "GroupDocs.Classification untuk .NET kompatibel dengan sistem operasi dan framework berikut:"
+  details_link_title: "Pelajari lebih lanjut"
 
-  api:
-    - title: "GroupDocs.Classification High Code API Termasuk"
-      link: "/classification/"
-      label: "Lihat Semua API Kode Tinggi"
-      api_product:
-        - link: "/classification/net/"
-          img_alt: "GroupDocs.Classification for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-classification-net.png"
-          product: "GroupDocs.Classification for"
-          platform: ".NET"
-          content: "Kembangkan aplikasi .NET dengan fitur kategorisasi dokumen dan teks untuk menganalisis & mengekstrak konten tanpa menggunakan alat eksternal apa pun."
+  items:
+    # items loop
+    - title: ".NET"
+      description: GroupDocs.Classification untuk .NET
+      color: "blue"
+      tag: "net"
+      link: "/classification/net/"
+      features_link: "https://docs.groupdocs.com/classification/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    .NET Core 2.0 atau lebih baru  .NET Framework 4.7 atau lebih tinggi
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Windows Desktop (x64)  Windows Server (x64)  Windows Azure  Mac OS X x64 (10.12+)
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    Microsoft Visual Studio  JetBrains Rider  MonoDevelop
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    10+ format file
 
-    - title: "GroupDocs.Classification API Kode Rendah Termasuk"
-      link: "https://products.groupdocs.cloud/classification"
-      label: "Lihat Semua API Kode Rendah"
-      api_product:
-        - link: "https://products.groupdocs.cloud/classification/curl"
-          img_alt: "GroupDocs.Classification Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_classification-for-curl.png"
-          product: "GroupDocs.Classification"
-          platform: "Cloud for cURL"
-          content: "Jangan khawatir tentang platform, cukup kirim panggilan REST API untuk mengklasifikasikan teks dan dokumen MS Word, OpenOffice, PDF dari perangkat yang mampu menjalankan perintah cURL."
-
-        - link: "https://products.groupdocs.cloud/classification/net"
-          img_alt: "GroupDocs.Classification Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_classification-for-net.png"
-          product: "GroupDocs.Classification"
-          platform: "Cloud SDK for .NET"
-          content: "SDK cloud open source yang dirancang untuk pengembang .NET untuk menggunakan GroupDocs.Classification REST APIs."
-
-    - title: "GroupDocs.Classification Tidak Ada Aplikasi Kode Termasuk"
-      link: "https://products.groupdocs.app/classification"
-      label: "Lihat Semua Aplikasi Tanpa Kode"
-      api_product:
-        - link: "https://products.groupdocs.app/classification/total"
-          img_alt: "GroupDocs.Classification Total"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_classificaion-total-app.png"
-          product: "GroupDocs.Classification"
-          platform: "Total"
-          content: "Coba aplikasi gratis untuk mengklasifikasikan teks mentah dan Microsoft Word, OpenOffice, PDF, TXT &amp; File RTF online."
-
-        - link: "https://products.groupdocs.app/classification/docx"
-          img_alt: "GroupDocs.Classification DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
-          product: "GroupDocs.Classification"
-          platform: "DOCX"
-          content: |
-            Klasifikasikan dokumen DOCX berdasarkan taksonomi **IAB-2**, **Documents** atau **Sentiment**.
-
-        - link: "https://products.groupdocs.app/classification/pdf"
-          img_alt: "GroupDocs.Classification PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
-          product: "GroupDocs.Classification"
-          platform: "PDF"
-          content: |
-            Klasifikasikan dokumen DOCX berdasarkan taksonomi **IAB-2**, **Documents** atau **Sentiment**.
-
-back_to_top:
+############################# Features ###############################
+features:
   enable: true
+  title: "Fitur utama GroupDocs.Classification"
+  description: "Solusi ini membantu Anda mengklasifikasikan dokumen dan teks menggunakan berbagai taksonomi, melakukan analisis sentimen, dan mengintegrasikan kemampuan klasifikasi canggih ke dalam aplikasi .NET Anda."
+
+  items:
+    # items loop
+    - icon: "classify"
+      title: "Beberapa taksonomi"
+      content: "Klasifikasikan menggunakan taksonomi IAB-2, Dokumen, dan Sentimen."
+
+    # items loop
+    - icon: "format"
+      title: "Dukungan format yang luas"
+      content: "Proses berbagai format dokumen termasuk DOC, DOCX, PDF, dan lainnya."
+
+    # items loop
+    - icon: "analyze"
+      title: "Analisis sentimen"
+      content: "Lakukan klasifikasi sentimen untuk teks bahasa Inggris dan Cina."
+
+    # items loop
+    - icon: "integrate"
+      title: "Integrasi mudah"
+      content: "Integrasikan kemampuan klasifikasi hanya dengan beberapa baris kode."
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Klasifikasikan dokumen dengan mudah"
+  description: "Contoh kode GroupDocs.Classification"
+  items:
+    # code sample loop
+    - title: "Klasifikasikan PDF dengan Taksonomi IAB-2"
+      content: |
+       GroupDocs.Classification memungkinkan Anda dengan mudah mengklasifikasikan dokumen PDF menggunakan taksonomi IAB-2. Cukup tentukan jalur dokumen, jumlah hasil yang diinginkan, dan jenis taksonomi untuk mendapatkan hasil klasifikasi.
+      samples:
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp
+            // Buat instance Classifier
+            var classifier = new GroupDocs.Classification.Classifier();
+
+            // Klasifikasikan dokumen
+            var response = classifier.Classify("document.pdf", ".", 3, Taxonomy.Iab2);
+
+            // Cetak kelas terbaik dan probabilitasnya
+            Console.WriteLine($"Kelas terbaik: {response.BestClassName}, Probabilitas: {response.BestClassProbability}");
+            ```
+
+############################# Supported Formats ###############################
+formats:
+  enable: true
+  title: "Mendukung 10+ format file"
+  description: "GroupDocs.Classification bekerja dengan berbagai format dokumen populer"
+
+############################# Metrics ###############################
+metrics:
+  enable: true
+  title: "Metrik dan wawasan mendalam"
+  description: "Selami metrik terperinci kami untuk pandangan komprehensif tentang kinerja dan pertumbuhan kami."
+
+  items:
+    # items loop
+    - number: "10+"
+      title: "Format yang Didukung"
+      content: "Kami mendukung lebih dari 10 format dokumen yang paling banyak digunakan."
+
+    # items loop
+    - number: "3"
+      title: "Taksonomi yang Didukung"
+      content: "Klasifikasikan konten menggunakan taksonomi IAB-2, Dokumen, dan Sentimen."
+
+    # items loop
+    - number: "2"
+      title: "Bahasa untuk Analisis Sentimen"
+      content: "Lakukan klasifikasi sentimen dalam bahasa Inggris dan Cina."
+
+    # items loop
+    - number: "4.7+"
+      title: "Dukungan .NET Framework"
+      content: "Kompatibel dengan .NET Framework 4.7 atau lebih tinggi dan .NET Core 2.0 atau lebih baru."
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "Siap untuk Memulai?"
+  description: "Coba fitur GroupDocs.Classification secara gratis di platform Anda."
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/classification/net/"
+
+############################# FAQ ###############################
+faq:
+  enable: true
+  title: "Pertanyaan yang Sering Diajukan"
+  description: "Jawaban untuk pertanyaan umum tentang GroupDocs.Classification."
+
+  items:
+    # items loop
+    - question: "Jenis dokumen apa yang dapat saya klasifikasikan dengan GroupDocs.Classification?"
+      answer: "GroupDocs.Classification mendukung berbagai format dokumen termasuk Microsoft Word (DOC, DOCX, RTF), OpenOffice (ODT), PDF, dan file teks biasa (TXT)."
+
+    # items loop
+    - question: "Bisakah saya menggunakan GroupDocs.Classification untuk analisis sentimen?"
+      answer: "Ya, GroupDocs.Classification mendukung analisis sentimen untuk teks bahasa Inggris dan Cina, memungkinkan Anda menentukan sentimen dokumen atau cuplikan teks."
+
+    # items loop
+    - question: "Apakah mungkin untuk mengintegrasikan GroupDocs.Classification ke dalam aplikasi .NET yang sudah ada?"
+      answer: "Tentu saja! GroupDocs.Classification menawarkan API yang ramah pengguna yang dapat dengan mudah diintegrasikan ke dalam aplikasi .NET Anda hanya dengan beberapa baris kode. Dirancang untuk bekerja secara mulus dengan alur kerja yang sudah ada."
+
+############################# Cloud Links ###############################
+cloud_links:
+  enable: false
+
+############################# App links ###############################
+app_links:
+  enable: false
 ---
